@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ad-management-system/static/css/main.073c9b0a.css",
+    "main.js": "/ad-management-system/static/js/main.ab8f12a9.js",
+    "static/js/787.d2c15ecb.chunk.js": "/ad-management-system/static/js/787.d2c15ecb.chunk.js",
+    "static/media/logo.svg": "/ad-management-system/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ad-management-system/index.html",
+    "main.073c9b0a.css.map": "/ad-management-system/static/css/main.073c9b0a.css.map",
+    "main.ab8f12a9.js.map": "/ad-management-system/static/js/main.ab8f12a9.js.map",
+    "787.d2c15ecb.chunk.js.map": "/ad-management-system/static/js/787.d2c15ecb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.ab8f12a9.js"
+  ]
+}
