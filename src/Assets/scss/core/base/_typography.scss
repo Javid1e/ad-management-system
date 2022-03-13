@@ -12,13 +12,13 @@ button,
 input,
 select,
 textarea {
-	@include font-family(base);
-	@include font-weight(base);
+	font-family: 'IranYekan';
+	font-family: 'IranYekan';
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-	@include font-family(heading);
+	font-family: 'IranSans';
 	@include font-weight(heading);
 	clear: both;
 	color: color(heading);
@@ -116,6 +116,7 @@ h4, h5, h6,
 }
 
 p {
+	font-family: 'IranSans';
 	margin-top: 0;
 	margin-bottom: $spacing--shared-v;
 }

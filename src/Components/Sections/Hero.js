@@ -6,7 +6,6 @@ import Button from "../Elements/Button";
 import Image from "../Elements/Image";
 import Modal from "../Elements/Modal";
 
-
 const propTypes = {
   ...SectionProps.types,
 };
@@ -24,7 +23,7 @@ const Hero = ({
   hasBgColor,
   invertColor,
   ...props
-},) => {
+}) => {
   const [videoModalActive, setVideomodalactive] = useState(false);
 
   const openModal = (e) => {
@@ -57,20 +56,21 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1
+            <h1 className="mt-0 mb-16 reveal-from-top text-color-primary" data-reveal-delay="200">
+              {props.data ? props.data.caption : "Loading"}
+            </h1>
+            <h2
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
             >
-               {props.data? props.data.title : 'Loading'}{" "}
-              <span className="text-color-primary">startups</span>
-            </h1>
+              {props.data ? props.data.title : "Loading"}
+            </h2>
             <div className="container-xs">
               <p
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                {props.data ? props.data.paragraph : "Loading"}
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -80,7 +80,7 @@ const Hero = ({
                     wideMobile
                     href="https://cruip.com/"
                   >
-                    Get started
+                    تبلیغ ثبت کن
                   </Button>
                   <Button
                     tag="a"
@@ -88,7 +88,7 @@ const Hero = ({
                     wideMobile
                     href="https://github.com/cruip/open-react-template/"
                   >
-                    View on Github
+                   تابلو ثبت کن
                   </Button>
                 </ButtonGroup>
               </div>
