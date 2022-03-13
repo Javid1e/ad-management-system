@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/ad-management-system/static/css/main.f4995b6c.css",
-    "main.js": "/ad-management-system/static/js/main.7ad6cf3b.js",
+    "main.css": "/ad-management-system/static/css/main.3c62b591.css",
+    "main.js": "/ad-management-system/static/js/main.c8c326a3.js",
     "static/js/787.d2c15ecb.chunk.js": "/ad-management-system/static/js/787.d2c15ecb.chunk.js",
     "static/media/video-placeholder.jpg": "/ad-management-system/static/media/video-placeholder.ca40af5667c998a65125.jpg",
+    "static/media/IRANYekanMobileRegular.ttf": "/ad-management-system/static/media/IRANYekanMobileRegular.e5d150bd178f4a615d1a.ttf",
+    "static/media/IRANSansWeb.ttf": "/ad-management-system/static/media/IRANSansWeb.ae01de6907048fbaba8b.ttf",
     "static/media/illustration-section-01.svg": "/ad-management-system/static/media/illustration-section-01.980998916c8e9369ffab.svg",
     "static/media/features-split-image-01.png": "/ad-management-system/static/media/features-split-image-01.94b14c16e7643460bbd8.png",
     "static/media/features-split-image-03.png": "/ad-management-system/static/media/features-split-image-03.7bd671553abb3e7dbbca.png",
@@ -18,12 +20,12 @@
     "static/media/feature-tile-icon-03.svg": "/ad-management-system/static/media/feature-tile-icon-03.69e94e20efba0832770920ab1d93d073.svg",
     "static/media/feature-tile-icon-01.svg": "/ad-management-system/static/media/feature-tile-icon-01.e13cef8e30c0472fc8b303cc0801113f.svg",
     "static/media/feature-tile-icon-02.svg": "/ad-management-system/static/media/feature-tile-icon-02.469356592c7ce3b1abf53cca85e82fee.svg",
-    "main.f4995b6c.css.map": "/ad-management-system/static/css/main.f4995b6c.css.map",
-    "main.7ad6cf3b.js.map": "/ad-management-system/static/js/main.7ad6cf3b.js.map",
+    "main.3c62b591.css.map": "/ad-management-system/static/css/main.3c62b591.css.map",
+    "main.c8c326a3.js.map": "/ad-management-system/static/js/main.c8c326a3.js.map",
     "787.d2c15ecb.chunk.js.map": "/ad-management-system/static/js/787.d2c15ecb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4995b6c.css",
-    "static/js/main.7ad6cf3b.js"
+    "static/css/main.3c62b591.css",
+    "static/js/main.c8c326a3.js"
   ]
 }
