@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames";
-import { SectionProps } from "../../Utils/SectionProps";
+import { SectionProps } from "../../Utils/SectionsProps";
 import ButtonGroup from "../Elements/ButtonGroup";
 import Button from "../Elements/Button";
 import Image from "../Elements/Image";
@@ -106,7 +106,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require("../../Assets/Images/video-placeholder.jpg")}
+                src={require("../../Assets/images/video-placeholder.jpg")}
                 alt="Hero"
                 width={896}
                 height={504}

@@ -15,7 +15,8 @@
     "react-ga": "^3.3.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "5.0.0",
-    "sass": "^1.49.9",
+    "sass": "^1.49.7",
+    "url-loader": "^4.1.1",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

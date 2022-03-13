@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import { SectionTilesProps } from "../../Utils/SectionProps";
+import { SectionTilesProps } from "../../Utils/SectionsProps";
 import SectionHeader from "./partials/SectionHeader";
 
 const propTypes = {

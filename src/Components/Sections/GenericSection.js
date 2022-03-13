@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { SectionProps } from "../../Utils/SectionProps";
+import { SectionProps } from "../../Utils/SectionsProps";
 
 const propTypes = {
   children: PropTypes.node,
