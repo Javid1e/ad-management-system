@@ -9,7 +9,7 @@ const AppRoute = ({ component: Component, layout: Layout, ...rest }) => {
       {...rest}
       render={(props) => (
         <Layout>
-          <Component {...props} />
+          <Component {...props} data={rest.data}/>
         </Layout>
       )}
     />

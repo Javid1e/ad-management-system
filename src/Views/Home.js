@@ -6,10 +6,10 @@ import FeaturesSplit from "../Components/Sections/FeaturesSplit";
 import Testimonial from "../Components/Sections/Testimonial";
 import Cta from "../Components/Sections/Cta";
 
-const Home = () => {
+const Home = (props) => {
   return (
     <Fragment>
-      <Hero className="illustration-section-01" />
+      <Hero className="illustration-section-01" data={props.data.Header} />
       <FeaturesTiles />
       <FeaturesSplit
         invertMobile

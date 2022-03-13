@@ -6,6 +6,7 @@ import Button from "../Elements/Button";
 import Image from "../Elements/Image";
 import Modal from "../Elements/Modal";
 
+
 const propTypes = {
   ...SectionProps.types,
 };
@@ -23,7 +24,7 @@ const Hero = ({
   hasBgColor,
   invertColor,
   ...props
-}) => {
+},) => {
   const [videoModalActive, setVideomodalactive] = useState(false);
 
   const openModal = (e) => {
@@ -60,7 +61,7 @@ const Hero = ({
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
             >
-              Landing template for{" "}
+               {props.data? props.data.title : 'Loading'}{" "}
               <span className="text-color-primary">startups</span>
             </h1>
             <div className="container-xs">

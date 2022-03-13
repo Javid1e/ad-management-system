@@ -1,8 +1,9 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect,useState } from "react";
 import { useLocation, Switch } from "react-router-dom";
 import AppRoute from "./Utils/AppRoute";
 import ScrollReveal from "./Utils/ScrollReveal";
 import ReactGA from "react-ga";
+import JsonData from "./Data/data.json";
 
 // Layouts
 import LayoutDefault from "./Layouts/LayoutDefault";
@@ -19,6 +20,11 @@ const trackPage = (page) => {
 };
 
 const App = () => {
+
+  const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    setLandingPageData(JsonData);
+  }, []);
   const childRef = useRef();
   let location = useLocation();
 
@@ -35,9 +41,14 @@ const App = () => {
       ref={childRef}
       children={() => (
         <Switch>
-          <AppRoute exact pathname="/" component={Home} layout={LayoutDefault} />
+          <AppRoute
+            exact
+            pathname="/"
+            component={Home}
+            layout={LayoutDefault}
+            data={landingPageData}
+          />
         </Switch>
-        
       )}
     />
   );
