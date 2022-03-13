@@ -78,7 +78,7 @@ const Hero = ({
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="https://cruip.com/"
+                    href="https://Javid1e.github.io/ad-management-system"
                   >
                     تبلیغ ثبت کن
                   </Button>
@@ -86,7 +86,7 @@ const Hero = ({
                     tag="a"
                     color="dark"
                     wideMobile
-                    href="https://github.com/cruip/open-react-template/"
+                    href="https://Javid1e.github.io/ad-management-system"
                   >
                    تابلو ثبت کن
                   </Button>
