@@ -55,7 +55,7 @@ const Gallery = ({
                     
                     <Image
                      className="has-shadow"
-                     src={d.small}
+                     src={ process.env.PUBLIC_URL+d.small}
                      alt="Hero"
                      width={896}
                      height={504}

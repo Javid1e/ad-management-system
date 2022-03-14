@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6,
 	color: color(heading);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
+	text-align: right;
 }
 
 h1,
@@ -119,6 +120,7 @@ p {
 	font-family: 'IranSans';
 	margin-top: 0;
 	margin-bottom: $spacing--shared-v;
+	text-align: right;
 }
 
 dfn, cite, em, i {

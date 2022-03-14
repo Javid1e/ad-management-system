@@ -45,7 +45,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Made by <a href="https://cruip.com">Cruip</a>. All right reserved</div>
+           <div className="footer-copyright">کلیه حقوق این سایت متعلق به {" "}<a>شرکت هوشمند ارتباط{" "}</a>است</div>
           </div>
         </div>
       </div>

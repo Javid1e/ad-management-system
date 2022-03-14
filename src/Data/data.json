@@ -7,7 +7,7 @@
   "About": {
     "title": "از ما بیشتر بدانید",
     "paragraph": "تبلیغ نگار برای هر شهرداری دامنه ای اختصاصی فراهم می آورد تا هر شهرداری با اختیار داشتن کلیه حقوق و مجوز ها تمامی تابلو ها،استند ها و تمامی محیط های تبلیغاتی سطح شهر را در سامانه ثبت و در اختیار مشتریان برای رزرو قرار دهد",
-    "whyUs": "جرا باید ما را انتخاب کنید ؟",
+    "whyUs": "چرا باید ما را انتخاب کنید ؟",
     "Why": [
       "ارائه محیط با کیفیت",
       "تیم پیشتبانی و توسعه ی حرفه ای",
@@ -25,48 +25,48 @@
     {
       
       "title": "Project Title",
-      "large": "img/portfolio/01-large.jpg",
-      "small": "img/portfolio/01-small.jpg"
+      "large": "/img/portfolio/01-large.jpg",
+      "small": "/img/portfolio/01-small.jpg"
     },
     {
       "title": "Project Title",
-      "large": "img/portfolio/02-large.jpg",
-      "small": "img/portfolio/02-small.jpg"
+      "large": "/img/portfolio/02-large.jpg",
+      "small": "/img/portfolio/02-small.jpg"
     },
     {
       "title": "Project Title",
-      "large": "img/portfolio/03-large.jpg",
-      "small": "img/portfolio/03-small.jpg"
+      "large": "/img/portfolio/03-large.jpg",
+      "small": "/img/portfolio/03-small.jpg"
     },
     {
       "title": "Project Title",
-      "large": "img/portfolio/04-large.jpg",
-      "small": "img/portfolio/04-small.jpg"
+      "large": "/img/portfolio/04-large.jpg",
+      "small": "/img/portfolio/04-small.jpg"
     },
     {
       "title": "Project Title",
-      "large": "img/portfolio/05-large.jpg",
-      "small": "img/portfolio/05-small.jpg"
+      "large": "/img/portfolio/05-large.jpg",
+      "small": "/img/portfolio/05-small.jpg"
     },
     {
       "title": "Project Title",
-      "large": "img/portfolio/06-large.jpg",
-      "small": "img/portfolio/06-small.jpg"
+      "large": "/img/portfolio/06-large.jpg",
+      "small": "/img/portfolio/06-small.jpg"
     },
     {
       "title": "Project Title",
-      "large": "img/portfolio/07-large.jpg",
-      "small": "img/portfolio/07-small.jpg"
+      "large": "/img/portfolio/07-large.jpg",
+      "small": "/img/portfolio/07-small.jpg"
     },
     {
       "title": "Project Title",
-      "large": "res/imgs/portfolio/08-large.jpg",
-      "small": "res/imgs/portfolio/08-small.jpg"
+      "large": "/img/portfolio/08-large.jpg",
+      "small": "/img/portfolio/08-small.jpg"
     },
     {
       "title": "Project Title",
-      "large": "img/portfolio/09-large.jpg",
-      "small": "img/portfolio/09-small.jpg"
+      "large": "/img/portfolio/09-large.jpg",
+      "small": "/img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
@@ -103,44 +103,44 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "/img/testimonials/01.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "/img/testimonials/02.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "/img/testimonials/03.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "/img/testimonials/04.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "/img/testimonials/05.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "/img/testimonials/06.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     }
   ],
   "Team": [
     {
-      "img": "../Assets/images/team/01.jpg",
+      "img": "/img/team/01.jpg",
       "name": "عبدالله محبی زرین دره",
       "job": "برنامه نویس"
     },
     {
-      "img": "../Assets/images/team/02.jpg",
+      "img": "/img/team/02.jpg",
       "name": "مسلم ایجادی",
       "job": "برنامه نویس"
     }
