@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ad-management-system/static/css/main.6b9b3b5c.css",
-    "main.js": "/ad-management-system/static/js/main.c8a58445.js",
+    "main.css": "/ad-management-system/static/css/main.8f3b8c3a.css",
+    "main.js": "/ad-management-system/static/js/main.626a14a9.js",
     "static/js/787.d2c15ecb.chunk.js": "/ad-management-system/static/js/787.d2c15ecb.chunk.js",
     "static/media/video-placeholder.jpg": "/ad-management-system/static/media/video-placeholder.ca40af5667c998a65125.jpg",
     "static/media/IRANYekanMobileRegular.ttf": "/ad-management-system/static/media/IRANYekanMobileRegular.e5d150bd178f4a615d1a.ttf",
@@ -13,12 +13,12 @@
     "static/media/illustration-section-02.svg": "/ad-management-system/static/media/illustration-section-02.f11c21a9745d2454b81c.svg",
     "static/media/cta-illustration.svg": "/ad-management-system/static/media/cta-illustration.79633e4594ec76a3f01f.svg",
     "index.html": "/ad-management-system/index.html",
-    "main.6b9b3b5c.css.map": "/ad-management-system/static/css/main.6b9b3b5c.css.map",
-    "main.c8a58445.js.map": "/ad-management-system/static/js/main.c8a58445.js.map",
+    "main.8f3b8c3a.css.map": "/ad-management-system/static/css/main.8f3b8c3a.css.map",
+    "main.626a14a9.js.map": "/ad-management-system/static/js/main.626a14a9.js.map",
     "787.d2c15ecb.chunk.js.map": "/ad-management-system/static/js/787.d2c15ecb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b9b3b5c.css",
-    "static/js/main.c8a58445.js"
+    "static/css/main.8f3b8c3a.css",
+    "static/js/main.626a14a9.js"
   ]
 }
