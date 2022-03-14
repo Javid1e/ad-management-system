@@ -26,7 +26,9 @@ const Home = (props) => {
         className="illustration-section-02"
       />
       <Services data={props.data.Services}/>
+      <Gallery data={props.data.Gallery}/>
       <Testimonial topDivider />
+      <Team data={props.data.Team}/>
       <Cta split />
     </Fragment>
   );
