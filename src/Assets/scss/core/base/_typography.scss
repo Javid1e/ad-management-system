@@ -5,26 +5,28 @@ html {
 body {
 	color: color(base);
 	font-size: 1rem;
+	direction: rtl;
 }
 
 body,
 button,
 input,
 select,
-textarea {
-	font-family: 'IranYekan';
-	font-family: 'IranYekan';
+textarea,li,a {
+	font-family: 'YekhanBakh' !important;
+
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'IranSans';
+	font-family: 'IranSans' !important;
 	@include font-weight(heading);
 	clear: both;
 	color: color(heading);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	text-align: right;
+
 }
 
 h1,
@@ -77,12 +79,14 @@ a {
 	&:not(.button) {
 		@include anchor-aspect(main);
 		@include font-weight(link);
+		
 	}
 
 	&.button-link {
 		@include anchor-aspect(button-link);
 		@include font-weight(button-link);
 		text-transform: $link-button--transform;
+		
 	}
 
 	&.func-link {

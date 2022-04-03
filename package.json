@@ -10,6 +10,7 @@
     "classnames": "^2.3.1",
     "gh-pages": "^3.2.3",
     "lodash": "^4.17.21",
+    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-ga": "^3.3.0",
@@ -26,7 +27,8 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-    "clean": "gh-pages-clean"
+    "clean": "gh-pages-clean",
+    "sass":"node-sass -w src/Assets/scss -o src/Assets/css -r"
   },
   "eslintConfig": {
     "extends": [

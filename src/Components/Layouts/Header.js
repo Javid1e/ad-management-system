@@ -112,7 +112,28 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="#0" onClick={closeMenu}>خانه</Link>
+                    </li>
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>تبلیغ نگار</Link>
+                    </li>
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>امکانات</Link>
+                    </li>
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>سرویس ها</Link>
+                    </li>
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>گالری</Link>
+                    </li>
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>بازخورد ها</Link>
+                    </li>
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>تیم تبلیغ نگار</Link>
+                    </li>
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>تماس با ما</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +141,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>ورود</Link>
                       </li>
                     </ul>}
                 </div>

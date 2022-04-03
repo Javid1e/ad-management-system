@@ -15,21 +15,21 @@ import Cta from "../Components/Sections/Cta";
 const Home = (props) => {
   return (
     <Fragment>
-      <Hero className="illustration-section-01" data={props.data.Header} />
-      <AboutUs data={props.data.About} />
+      <Hero className="illustration-section-01" data={props.data.Hero_1} />
+      <AboutUs data={props.data.AboutUs_2} />
       <FeaturesTiles />
-      <Features data={props.data.Features} />
+      <Features data={props.data.Features_3} />
       <FeaturesSplit
         invertMobile
         topDivider
         imageFill
         className="illustration-section-02"
       />
-      <Services data={props.data.Services}/>
-      <Gallery data={props.data.Gallery}/>
-      <Testimonial topDivider />
-      <Team data={props.data.Team}/>
-      <Cta split />
+      <Services data={props.data.Services_4} />
+      <Gallery data={props.data.Gallery_5} />
+      <Testimonial topDivider data={props.data.FeedBacks_6} />
+      <Team data={props.data.Team_7} />
+      <Cta split data={props.data.Contact_8} />
     </Fragment>
   );
 };

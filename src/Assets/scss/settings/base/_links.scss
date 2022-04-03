@@ -3,9 +3,9 @@
 // Color
 $link--color: (
 	link: 								get-color(light, 1),
-	link-hover: 						null,
+	link-hover: 						get-color(secondary,3),
 	header-link: 						get-color(light, 2),
-	header-link-hover: 					get-color(light, 1),
+	header-link-hover: 					get-color(secondary, 3),
 	header-link-mobile: 				get-color(light, 1),
 	header-link-mobile-hover: 			null,
 	footer-link: 						get-color(light, 2),
@@ -34,7 +34,7 @@ $link--color: (
 // Font-weight
 $link--weight: (
 	link: 				null,
-	header-link:		500,
+	header-link:		600,
 	footer-link:		null,
 	footer-block-link:	null,
 	button-link:		null
